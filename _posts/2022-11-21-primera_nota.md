@@ -1,6 +1,6 @@
 ---
 layout: post
-title: El repo ya esta andando!
+title: Segundo Post
 ---
 
 ## Este es mi primer post
