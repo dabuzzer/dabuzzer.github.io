@@ -2,14 +2,18 @@
 layout: post
 title: "Clase 8: Interactive and Conversational Recommender Systems"
 ---
- 
+
+
+## Interactive and Conversational Recommender Systems
+
+
 Estos tipos de sistemas se basan netamente en una propuesta inicial, la cual se va refinando a través de feedback del usuario, mediante el intercambio de comunicación constante y finalmente el sistema es capaz de entregar un resultado.
  
 La finalidad es poder transformar la experiencia de los usuarios en una forma natural del comportamiento de estos, por medios de interacciones no clásicas como podría ser la voz y/o texto, así ir pudiendo guiar al usuario y a su vez poder entender lo que realmente necesita y así indicar una recomendación adecuada.
  
 Durante este último tiempo este tipo de sistemas ha tomado más auge ya que hoy en día existen herramientas de Reinforced Learning y Machine Learning, los cuales hacen que este sea mucho más usable, así también la cantidad de información existente es muchísima.
  
-### Arquitectura Global
+## Arquitectura Global
  
 En una generalidad un sistema de este tipo posee dos componentes principales
  

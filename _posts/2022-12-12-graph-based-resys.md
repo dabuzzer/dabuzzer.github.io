@@ -2,7 +2,9 @@
 layout: post
 title: Graph Based Recommender Systems
 ---
- 
+
+## Graph Based Recommender Systems
+
 Nace en al año 2008, por Scarcelli, por una red neuronal de grafos, un grafo es una forma de representar una red, que consiste en nodos(objetos) que se encuentran conectados mediante vértices (enlaces) los cuales explican una relación entre estos.
  
 La idea general de una red neuronal de grafos es poder tomar una red(grafo) y llevarla a un espacio vectorial llamado embedding, la cual representa propiedades de la red y cómo se relacionan entre sí.
@@ -21,14 +23,14 @@ Para realizar esto se toma y se aplica una transformación sobre los atributos d
  
 ## Tipos de aprendizaje
  
-Aprendizaje transductivo: el modelo ve los datos tanto como de entrenamiento como test, si se agrega un nuevo nodo se entrena de nuevo
+Aprendizaje transductivo: el modelo ve los datos tanto como de entrenamiento como test, si se agrega un nuevo nodo se entrena de nuevo.
  
 aprendizaje inductivo: ve solo los datos de entrenamiento y si se agrega un nodo nuevo, se puede representar mediante los datos existentes.
  
  
 ### Para Sistemas de Recomendación
  
-Es más fácil poder representar las interacciones y conexiones de elementos mediante grafos y así también aporta a la capacidad de aprender relaciones complejas
+Es más fácil poder representar las interacciones y conexiones de elementos mediante grafos y así también aporta a la capacidad de aprender relaciones complejas.
  
  
 ## Clases de GNN
