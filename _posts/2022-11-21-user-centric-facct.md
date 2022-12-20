@@ -6,7 +6,7 @@ title: "Clase 6: User Centrict FaCct"
 ## Justicia, Explicabilidad y Transparencia en Sistemas de Recomendación
  
 Esta clase se basó en una recopilación sobre diferentes aspectos de los avances de la inteligencia artificial, así también los efectos de sesgos que han ocurrido en su aplicación a lo largo de la historia los cuales afectan directamente a los usuarios y su confianza con estos.
- 
+
 Sin duda los sistemas de inteligencia artificial no aprenden en base a sus reglas, sino de cómo fueron modeladas y entrenadas por humanos, esto necesariamente recae en decisiones éticas de las cuales deben ser consideradas.
  
 En un artículo creado llamado **The ethics of algorithms**, se plantea un mapa sobre las éticas que debe cumplir un algoritmo.
@@ -39,7 +39,7 @@ Tintarev, N., & Masthoff, J. (2011). Designing and evaluating explanations for r
 
 ### Visualization for Recsys
 
-En la segunda etapa de la clase, se presento procesos para la visualizacion de sistemas recomendadores de filtrado colaborativos.
+En la segunda etapa de la clase, se presento procesos para la visualizacion de sistemas recomendadores. donde se plantea lo importante de poder visualizar interactivamente los resultados de una recomendacion.
 
 Peerchooser (2008): Sistema en cual representava visualmente los algoritmos de filtrado colaborativos.
 SmallWorlds (2010): Generado por Facebook, para representar recomendaciones de peliculas
