@@ -5,7 +5,7 @@ title: "Clase 6: User Centrict FaCct"
 
 ## Justicia, Explicabilidad y Transparencia en Sistemas de Recomendación
  
-Esta clase se basó en una recopilación sobre diferentes aspectos de los avances de la inteligencia artificial, así también los efectos de sesgos que han ocurrido en su aplicación a lo largo de la historia.
+Esta clase se basó en una recopilación sobre diferentes aspectos de los avances de la inteligencia artificial, así también los efectos de sesgos que han ocurrido en su aplicación a lo largo de la historia los cuales afectan directamente a los usuarios y su confianza con estos.
  
 Sin duda los sistemas de inteligencia artificial no aprenden en base a sus reglas, sino de cómo fueron modeladas y entrenadas por humanos, esto necesariamente recae en decisiones éticas de las cuales deben ser consideradas.
  
