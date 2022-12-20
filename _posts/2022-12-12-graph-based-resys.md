@@ -16,3 +16,29 @@ Filtro: es el cambio de atributos en nodos respecto a la interaccion con los vec
 
 Seleccion: Cambios en el grafo respecto a operaciones sobre el grafo (ex: Pooling)
 
+
+# Convolucion en un grafo
+
+Para realizar esto se toma y se aplica una transformacion sobre los atributos del nodo en funcion de sus vecinos.
+
+
+## Tipos de aprendizaje
+
+Aprendizaje transductivo: el modelo ve los datos tanto como de entrenamiento como test, si se agrega un nuevo nodo se entrena denuevo
+
+aprendizaje indctivo: ve solo los datos de entrenamiento y si se agrega un nodo nuevo, se puede representar mediante los datos existentes.
+
+
+### Para Recomendacion
+
+Es mas facil poder representar las interacciones y conexiones de elementos mediante grafos
+Capacidad de aprender relaciones complejas
+
+
+## Clases de GNN
+
+Greaph convolutional neural networks: utilizan poooling y convoluciones para considerar la informacion de los nodos vecisnos
+
+Gathed Graph Neural Networks: se introduce una GRU para aprender representaciones de nodos absorviendo iterativamente la influencia de otros nodos
+
+Attention Network (GAT): Se utiliza mecanismos de atencion para aprender las distintas relevancias que tienen algunos uusarios (o items) sobre todo.
