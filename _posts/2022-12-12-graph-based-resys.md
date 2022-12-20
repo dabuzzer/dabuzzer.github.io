@@ -42,3 +42,20 @@ Greaph convolutional neural networks: utilizan poooling y convoluciones para con
 Gathed Graph Neural Networks: se introduce una GRU para aprender representaciones de nodos absorviendo iterativamente la influencia de otros nodos
 
 Attention Network (GAT): Se utiliza mecanismos de atencion para aprender las distintas relevancias que tienen algunos uusarios (o items) sobre todo.
+
+
+### Grapg sage
+
+Permite escalar el aprendizaje de embeddings para los nodos a millons pero
+- Para u K grande, crece exponencialmente el numero de calculos
+- podemos encontrarnos con las maldiciones de nodos celebridades(que tengan demasiados vecinos)
+
+para grap sage realiza una muestra de los vecinos, acotando la cantidad de calculos
+
+1. muestrea vecindario, a diferentes profundidaes dependiendo de que forma esten unidos
+2. Agrega informacion de features de los vecinos(conexiones)
+
+
+se crean nodos agregadores
+el nodo se inicialiazan con caracteristicas originales
+el roceso iterativo se llama message passing
