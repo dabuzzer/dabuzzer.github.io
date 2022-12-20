@@ -59,3 +59,43 @@ para grap sage realiza una muestra de los vecinos, acotando la cantidad de calcu
 se crean nodos agregadores
 el nodo se inicialiazan con caracteristicas originales
 el roceso iterativo se llama message passing
+
+
+
+Perdidas
+
+Perdida no supervisadam simiarl al BPR, nodos conectados deben quedar mas cerca entre ellos que nodos no conectados
+
+Supervisada: hay etiquetas de los nodos, se puede supervisar el aprendizaje via clasifacioesn
+
+
+
+Aplicaciones:L
+recomendacion de contactos redes sociales
+
+
+### NGCG y LightGCx Para recomendaciones
+
+Filtrado colaborativo tradicional no captura explicitamente informacion de los nodos a k-hoops
+
+
+#### NGCF
+
+![_config.yml]({{ site.baseurl }}/images/gcn_formula.png)
+
+
+red neuronal que como como entrada un nodo y el modelo aplica transformacion de caracteristicas que se aprender generando un embedding de datos, para ello tiene tres funciones principales:
+update: actualizacion en base a pesos
+agregate: calculo de sumatoria
+message: paso de mensajes 
+
+
+#### LightGCN
+
+![_config.yml]({{ site.baseurl }}/images/light_gcn.png)
+
+
+No es necesario tener una red neuronal. para ello se puede disminuir los parametros de las capas de parametros de las redes neuronal. bajo el supuesto que los embedding de los vecinos son los suficientemente representativos.
+
+por ello solo queda la formula de agregacion y el paso de mensajes.
+finalmente realiza una agregacion final atravez de una suma ponedara de los embedding de cada capa
