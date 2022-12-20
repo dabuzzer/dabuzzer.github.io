@@ -32,17 +32,17 @@ En una generalidad un sistema de este tipo posee dos componentes principales
 Las formas de evaluar pueden ser desde diferentes puntos:
  
 1. Turn-level Metrics:
-  1. Calidad de las oraciones generadas por el chatbot (BLEU, ROUGE, legibilidad): métricas de machine translation y legibilidad
-  2. relevancia de preguntas generadas por el chatbot (ground truth de preguntas, accuracy, recall):
-  3. Frecuencia y distribución de acciones tomadas por el chatbot (recomendar, chatear, preguntar)
-  4. Nivel de cooperación del usuario( cuando responde el usuario a las preguntas del chatbot)
+  - Calidad de las oraciones generadas por el chatbot (BLEU, ROUGE, legibilidad): métricas de machine translation y legibilidad
+  - relevancia de preguntas generadas por el chatbot (ground truth de preguntas, accuracy, recall):
+  - Frecuencia y distribución de acciones tomadas por el chatbot (recomendar, chatear, preguntar)
+  - Nivel de cooperación del usuario( cuando responde el usuario a las preguntas del chatbot)
 2. Dialogue-Level metrics:
-  1. Largo de los diálogos
-  2. Ratio diálogo satisfactorio y cumplimiento de tareas (recomendar, preguntar)
+  - Largo de los diálogos
+  - Ratio diálogo satisfactorio y cumplimiento de tareas (recomendar, preguntar)
 3. Business-Level metrics:
-  1. conversion-rate por sesión de chats
-  2. incremento de ventas
-  3. satisfacción del usuario, ratings, retención de clientes, lealtad de clientes, etc
+  - conversion-rate por sesión de chats
+  - incremento de ventas
+  - satisfacción del usuario, ratings, retención de clientes, lealtad de clientes, etc
  
  
 # Modelo
