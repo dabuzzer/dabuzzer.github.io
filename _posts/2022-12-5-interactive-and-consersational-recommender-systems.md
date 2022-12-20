@@ -6,7 +6,6 @@ title: "Clase 8: Interactive and Conversational Recommender Systems"
 
 ## Interactive and Conversational Recommender Systems
 
-
 Estos tipos de sistemas se basan netamente en una propuesta inicial, la cual se va refinando a través de feedback del usuario, mediante el intercambio de comunicación constante y finalmente el sistema es capaz de entregar un resultado.
  
 La finalidad es poder transformar la experiencia de los usuarios en una forma natural del comportamiento de estos, por medios de interacciones no clásicas como podría ser la voz y/o texto, así ir pudiendo guiar al usuario y a su vez poder entender lo que realmente necesita y así indicar una recomendación adecuada.
