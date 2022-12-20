@@ -18,7 +18,7 @@ En un artículo creado llamado **The ethics of algorithms**, se plantea un mapa 
 
 - **Inscrutable Evidence**: Este punto busca resaltar la aplicabilidad respecto al resultado obtenido por un algoritmo, el cual debe ser capaz de informar respecto a la conclusión de este.
 
-- **Misguided Evidence**: Esta segunda preocupación epistémica, corresponde a la información con la que un algoritmo pueda ser entrenado o alimentado, para posteriormente producir un efecto incompleto sobre lo que se espera que resuelva.
+- **Misguided Evidence**: Corresponde a la información con la que un algoritmo pueda ser entrenado o alimentado, para posteriormente producir un efecto incompleto sobre lo que se espera que resuelva.
  
 - **Unfair Outcomes**: Corresponde a la respuesta que pueda generar un algoritmo, en el cual produce resultados que afecten a un sujeto y/o personas, el nivel de efectos adversos pueden ser variados en impactos.
   
@@ -35,3 +35,12 @@ A forma de resolver algunos de estos tópicos, se han generado modelos de recome
 
 ![_config.yml]({{ site.baseurl }}/images/criterions.webp)
 Tintarev, N., & Masthoff, J. (2011). Designing and evaluating explanations for recommender systems. In Recommender systems handbook (pp. 479–510). Springer, Boston, MA.
+
+
+### Visualization for Recsys
+
+En la segunda etapa de la clase, se presento procesos para la visualizacion de sistemas recomendadores de filtrado colaborativos.
+
+Peerchooser (2008): Sistema en cual representava visualmente los algoritmos de filtrado colaborativos.
+SmallWorlds (2010): Generado por Facebook, para representar recomendaciones de peliculas
+Each to is own: Sistema basado en reglas para mejorar el consume de energia en casas, buscando explicar a los usuarios basado en que tanto conocimiento poseea este.
